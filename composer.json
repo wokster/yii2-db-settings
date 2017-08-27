@@ -1,0 +1,30 @@
+{
+"name": "wokster/yii2-db-settings",
+"description": "settings module for yii2 to store settings in db",
+"type": "yii2-extension",
+"keywords": ["yii2","extension","setting","settings","db"],
+"license": "BSD-3-Clause",
+"authors": [
+{
+"name": "Maksym Tymofeiev",
+"email": "wokster@list.ru"
+}
+],
+"require": {
+  "yiisoft/yii2": ">=2.0.6",
+  "2amigos/yii2-switch-widget": "~1.0",
+  "kartik-v/yii2-widget-select2": "@dev",
+  "kartik-v/yii2-widget-fileinput": "@dev",
+  "vova07/yii2-imperavi-widget": "*",
+  "wokster/yii2-fontawesome-dropdown-widget": "*",
+  "wokster/yii2-yandexmap": "*",
+  "yiisoft/yii2-imagine": "~2.0.0",
+  "rmrevin/yii2-fontawesome": "~2.17",
+  "wokster/yii2-wokster-behaviors": "*"
+},
+"autoload": {
+"psr-4": {
+"wokster\\settings\\": ""
+}
+}
+}
