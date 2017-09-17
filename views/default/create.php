@@ -4,7 +4,7 @@ use yii\helpers\Html;
 
 
 /* @var $this yii\web\View */
-/* @var $model \backend\modules\main\models\Setting */
+/* @var $model \wokster\settings\models\Setting */
 
 $this->title = Yii::t('app', 'Создать Настройку');
 $this->params['breadcrumbs'][] = ['label' => Yii::t('app', 'Настройки'), 'url' => ['index']];

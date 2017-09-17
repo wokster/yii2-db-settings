@@ -153,7 +153,11 @@ use kartik\file\FileInput;
             </div>
             <div id="val_9" style="display: none;" class="colapse-val">
                 <div class="form-group field-setting-val_9 has-success">
-                    <?=\wokster\yandexmap\YandexGetCoordsWidget::widget(['model'=>$model,'attribute'=>'val_9','autoinit'=>false])?>
+                    <?=\wokster\yandexmap\YandexGetCoordsWidget::widget([
+                        'model'=>$model,
+                        'attribute'=>'val_9',
+                        'autoinit'=>false
+                    ])?>
                 </div>
             </div>
         </div>

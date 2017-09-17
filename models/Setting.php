@@ -263,11 +263,11 @@ class Setting extends \yii\db\ActiveRecord
                         $flag = true;
             }
             if ($flag) {
-                \Yii::$app->settings->clear();
                 \Yii::$app->session->addFlash('success', 'Настройка успешно сохранена');
             } else {
                 \Yii::$app->session->addFlash('error', 'Произошла ошибка при сохранении.');
             }
+            \Yii::$app->settings->clear();
         }
         parent::afterSave($insert, $changedAttributes);
     }
