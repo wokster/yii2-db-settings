@@ -15,7 +15,7 @@
   "2amigos/yii2-switch-widget": "~1.0",
   "kartik-v/yii2-widget-select2": "@dev",
   "kartik-v/yii2-widget-fileinput": "@dev",
-  "vova07/yii2-imperavi-widget": "*",
+  "vova07/yii2-imperavi-widget": "~2.0",
   "wokster/yii2-fontawesome-dropdown-widget": "*",
   "wokster/yii2-yandexmap": "*",
   "yiisoft/yii2-imagine": "~2.0.0",
