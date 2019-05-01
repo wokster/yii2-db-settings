@@ -40,13 +40,13 @@ class DefaultController extends Controller
     {
         return [
             'images-get' => [
-                'class' => 'vova07\imperavi\actions\GetAction',
+                'class' => 'vova07\imperavi\actions\GetImagesAction',
                 'url' => \Yii::$app->controller->module->allRedactorImageUrl, // Directory URL address, where files are stored.
                 'path' => \Yii::$app->controller->module->redactor_upload_path_alias, // Or  absolute path to directory where files are stored.
-                'type' => \vova07\imperavi\actions\GetAction::TYPE_IMAGES,
+                'type' => ['only' => ['*.jpg', '*.jpeg', '*.png', '*.gif']],
             ],
             'image-upload' => [
-                'class' => 'vova07\imperavi\actions\UploadAction',
+                'class' => 'vova07\imperavi\actions\UploadFileAction',
                 'url' => \Yii::$app->controller->module->redactorImageUrl, // Directory URL address, where files are stored.
                 'path' => \Yii::$app->controller->module->redactorPath, // Or absolute path to directory where files are stored.
             ],
